@@ -1,0 +1,121 @@
+.header {
+    background: url(../img/bg1.png) top center;
+    background-size: cover;
+    color: $colorW;
+    font-family: $fontBold;
+    text-align: center;
+    padding: 18px 0 138px 0;
+}
+
+.sign-form {
+    &__btn {
+        @include btn;
+        font-family: $fontBold;
+        color: $colorW;
+        font-size: 14px;
+        border-radius: 20px;
+        transition: .5s;
+        &:hover {
+            color: #000;
+            background-color: $colorW;
+        }
+        &--border {
+            border: 2px solid $colorW;
+            border-radius: 20px;
+            padding: 7px 5%;
+        }
+    }
+}
+
+.btn {
+    @include btn;
+    margin-top: 11px;
+    background: $colorPink;
+    padding: 10px 35px;
+    border-radius: 35px;
+    color: $colorW;
+    font-family: $fontBold;
+    font-size: 14px;
+    transition: .5s;
+    &:hover {
+        color: $colorPink;
+        background-color: $colorW;
+    }
+}
+
+.name {
+    margin: 118px 0 32px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.header-title {
+    &__header {
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 34px;
+    }
+    &__paragraph {
+        font-size: 18px;
+        font-family: 'robotolight', sans-serif;
+        width: 75%;
+        margin: 13px auto 0;
+        line-height: 23px;
+    }
+}
+
+@media (min-width:768px) {
+    .sign-form {
+        float: right;
+        margin: 20px 55px 0 0;
+        &__btn--border {
+            padding: 7px 17px;
+        }
+    }
+    .header {
+        padding: 18px 0 31%;
+    }
+    .btn {
+        margin-top: 37px;
+        padding: 10px 24px;
+    }
+    .header-title {
+        margin-top: 144px;
+        &__header {
+            font-size: 51px;
+            line-height: 61px;
+        }
+        &__paragraph {
+            margin-top: 28px;
+            font-size: 24px;
+        }
+    }
+    .name {
+        float: left;
+        margin: 30px 0 0 47px;
+    }
+}
+
+@media (min-width:960px) {
+    .wrapper {
+        min-width: 960px;
+    }
+    // Header
+    .sign-form {
+        margin: 20px 17% 0 0;
+    }
+    .name {
+        margin: 30px 0 0 17%;
+    }
+    .header {
+        padding: 18px 0 16%;
+        &-title__header {
+            font-size: 52px;
+            letter-spacing: 0;
+        }
+    }
+}

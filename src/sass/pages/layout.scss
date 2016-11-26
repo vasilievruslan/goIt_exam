@@ -1,0 +1,49 @@
+    body {
+        background: #fff;
+        font-family: 'robotolight', Arial, sans-serif;
+    }
+    
+    .wrapper {
+        min-width: 320px;
+        // max-width: 767px;
+        margin: 0 auto;
+    }
+    
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    .main {
+        text-align: center;
+        &__title {
+            font-family: $fontBold;
+            font-size: 22px;
+            font-weight: bold;
+            color: $fontColor;
+        }
+    }
+    
+    @media (min-width:768px) {
+        .wrapper {
+            min-width: 768px;
+        }
+        
+        .main-wrapp {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 759px;
+            /*max-width: 759px;*/
+        }
+    }
+    
+    @media (min-width:960px) {
+        .wrapper {
+            min-width: 960px;
+        }
+        .main-wrapp {
+            max-width: 959px;
+            width: 100%;
+        }
+    }

@@ -1,0 +1,34 @@
+<div class="footer clearfix">
+    <div class="name name--footer">URLAUBSGLÜCK</div>
+    <div class="nav">
+        <h6 class="nav__header">Company</h6>
+        <ul class="menu">
+            <li class="menu__item"><a href="" class="menu__link">About</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Contacts</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Press</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Blog</a></li>
+        </ul>
+    </div>
+    <h6 class="nav__header">Partners</h6>
+    <div class="designed">
+        <p class="designed__title">Designed By</p>
+        <img src="img/logo.png">
+    </div>
+</div>
+<script src="js/tmpl.js"></script>
+<script src="js/script.min.js"></script>
+<script type="text/html" id="grid-template">
+        <div class="grid clearfix">
+            <% for (var i =0; i<images.length; i++) { %>
+                <div class="grid-item
+          <% if ((i==5)||(i==4)){%>
+            grid-item--width2
+            <%}%>" style="background: url(<%=images[i].imageurl%>) center no-repeat; background-size: 100% 100%">
+                    <span class="puzzle-title"><%=images[i].word%></span>
+                </div>
+                <%}; %>
+        </div>
+    </script>
+</body>
+
+</html>

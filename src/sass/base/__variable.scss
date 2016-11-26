@@ -1,0 +1,33 @@
+//FONT FAMILIES
+$font-base: Arial, sans-serif;
+
+//FONT SIZES
+$fontSize-smallest: 12px;
+$fontSize-smaller: 14px;
+$fontSize-small: 16px;
+$fontSize-base: 20px;
+$fontSize-large: 25px;
+$fontSize-larger: 35px;
+$fontSize-largest: 50px;
+$fontSize-xlarg: 60px;
+
+//LINE HEIGHTS
+$lineHeight-tightest: 1.2;
+$lineHeight-tighter: 1.3;
+$lineHeight-tight: 1.4;
+$lineHeight-base: 1.5;
+$lineHeight-loose: 1.6;
+$lineHeight-looser: 1.7;
+
+
+$fontBold: 'Montserrat', sans-serif;
+$colorW: #fff;
+$colorPink: #ff4e50;
+$fontColor: #333333;
+
+@mixin btn {
+  border:none;
+  background: none;
+  cursor: pointer;
+}
+

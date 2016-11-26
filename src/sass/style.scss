@@ -1,0 +1,32 @@
+
+
+/*=== миксины слой ===*/
+
+@import "_mixins/mixin";
+
+
+
+/*=== базовый слой ===*/
+
+@import "base/__color";
+@import "base/__variable";
+@import "base/__normalize";
+@import "base/grid";
+@import "base/typography";
+@import "base/buttons";
+@import "base/forms";
+
+
+
+/*=== компоненты ===*/
+@import "components/header";
+@import "components/footer";
+@import "components/slider";
+@import "components/partner";
+@import "components/grid";
+@import "components/search";
+
+
+/*=== страницы ===*/
+
+@import "pages/layout";

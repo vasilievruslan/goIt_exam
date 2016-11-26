@@ -1,0 +1,64 @@
+.search-partners {
+    text-align: center;
+    border-bottom: 4px solid $colorPink;
+    &__paragraph {
+        font-size: 18px;
+        color: $fontColor;
+        margin: 23px 0 19px;
+    }
+}
+
+.interests {
+    border: 1px solid #ccc;
+    line-height: 37px;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 0px 7%;
+    width: 73%;
+    max-width: 233px;
+    display: block;
+    margin: 0 auto;
+    height: 37px;
+}
+
+.btn--search {
+    width: 89%;
+    max-width: 304px;
+    margin-bottom: 40px;
+}
+
+@media (min-width:768px) {
+    .interests {
+        display: inline-block;
+        padding: 0 0 0 2%;
+        width: 29%;
+        margin-right: 18px;
+    }
+    .btn--search {
+        width: 20%;
+        padding: 10px;
+        margin: 15px 15px 100px;
+    }
+}
+
+@media (min-width:960px) {
+    .btn {
+        &--partners {
+            margin-top: 26px;
+            padding: 10px 29px;
+        }
+        &--search {
+            margin-top: 23px;
+            width: 12%;
+            margin-left: 13px;
+        }
+    }
+    .main__title--modific {
+        margin-top: 87px;
+    }
+    .interests {
+        width: 17%;
+        margin-right: 2px;
+        padding-left: 13px;
+    }
+}

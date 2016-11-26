@@ -1,0 +1,76 @@
+.ideas {
+    text-align: center;
+}
+
+// Search-Partners
+.search-partners {
+    text-align: center;
+    border-bottom: 4px solid $colorPink;
+    &__paragraph {
+        font-size: 18px;
+        color: $fontColor;
+        margin: 23px 0 19px;
+    }
+}
+
+.interests {
+    border: 1px solid #ccc;
+    line-height: 37px;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 0px 7%;
+    width: 73%;
+    max-width: 233px;
+    display: block;
+    margin: 0 auto;
+    height: 37px;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  .grid-item{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width:768px) {
+    .grid {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 809px;
+    }
+    .grid-item {
+        width: 235px;
+        height: 308px;
+        img {
+            max-height: 306px;
+            width: 100%;
+        }
+    }
+    .grid-item--width2 {
+        width: 500px;
+    }
+    .interests {
+        display: inline-block;
+        padding: 0 0 0 2%;
+        width: 29%;
+        margin-right: 18px;
+    }
+}
+
+@media (min-width:960px) {
+    .grid {
+        max-width: 938px;
+    }
+    .grid-item {
+        width: 298px;
+    }
+    .grid-item--width2 {
+        width: 618px;
+    }
+}

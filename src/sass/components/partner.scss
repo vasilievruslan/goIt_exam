@@ -1,0 +1,129 @@
+.partners{
+    margin-bottom: 28px;
+  &__img{
+    position:relative;
+    width: 124px;
+    margin: 0 auto;
+  }
+  &__name{
+    font-family: $fontBold;
+    color: $fontColor;
+    font-weight: 900;
+    font-size: 15px;
+    margin:17px 0 15px 0;
+  }
+  &__message{
+    color:#666666;
+    font-size: 14px;
+    width: 73%;
+    max-width: 233px;
+    line-height: 16px;
+    margin: 0 auto;
+  }
+}
+
+.main__title--modific{
+  text-align: center;
+  width: 90%;
+  max-width: 350px;
+  margin: 38px auto 17px;
+}
+.icon{
+  display:block;
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+  background: url(../img/spr.png) 0 0 no-repeat;
+  width:41px;
+  height:41px;
+  &--second{
+    background-position: -85px 0;
+  }
+  &--third{
+    background-position: -41px 0;
+  }
+  &--forth{
+    background-position: -128px 0;
+  }
+}
+.btn--partners{
+  background: $colorW;
+  color: $colorPink;
+  border: 2px solid $colorPink;
+  margin: 0 0 14px;
+  &:hover{
+    background: $colorPink;
+    color: $colorW;
+    border: 2px solid $colorW;
+  }
+}
+// IDEAS
+.ideas{
+  text-align: center;
+}
+// Search-Partners
+.search-partners{
+  text-align: center;
+  border-bottom: 4px solid $colorPink;
+  &__paragraph{
+   font-size: 18px;
+   color: $fontColor;
+   margin: 23px 0 19px;
+  }
+}
+.interests{
+  border: 1px solid #ccc;
+  line-height: 37px;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 0px 7%;
+  width: 73%;
+  max-width: 233px;
+  display: block;
+  margin: 0 auto;
+  height: 37px;
+}
+.puzzle-title{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+
+
+@media (min-width:768px) {
+       .main__title--modific{
+    width: 100%;
+    max-width: none;
+    margin-top: 90px
+  }
+  .partners{
+    float: left;
+    margin: 0px 0 14px 43px;
+    max-width: 615px;
+    &_wrapp{
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 6px;
+      max-width: 627px;
+    }
+  }
+    }
+
+    @media (min-width:960px) {
+        .partners{
+    float: left;
+    margin: 0px 0 14px 0;
+    &_wrapp{
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 6px;
+      max-width: 940px;
+    }
+    &__message{
+      width: 94%;
+    }
+  }
+    }
