@@ -15,6 +15,7 @@
         font-size: 14px;
         border-radius: 20px;
         transition: .5s;
+        padding: 7px 17px;
         &:hover {
             color: #000;
             background-color: $colorW;
@@ -22,7 +23,7 @@
         &--border {
             border: 2px solid $colorW;
             border-radius: 20px;
-            padding: 7px 5%;
+
         }
     }
 }

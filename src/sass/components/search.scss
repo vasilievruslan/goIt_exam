@@ -22,9 +22,7 @@
 }
 
 .btn--search {
-    width: 89%;
     max-width: 304px;
-    margin-bottom: 40px;
 }
 
 @media (min-width:768px) {
@@ -37,7 +35,6 @@
     .btn--search {
         width: 20%;
         padding: 10px;
-        margin: 15px 15px 100px;
     }
 }
 
@@ -48,7 +45,6 @@
             padding: 10px 29px;
         }
         &--search {
-            margin-top: 23px;
             width: 12%;
             margin-left: 13px;
         }
